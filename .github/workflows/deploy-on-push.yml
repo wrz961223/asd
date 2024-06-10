@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: wrz961223/docker-ci-basic:latest
+          tags: "wrz961223/docker-ci-basic:latest"
       -
         name: copy file via ssh password
         uses: appleboy/scp-action@v0.1.4
