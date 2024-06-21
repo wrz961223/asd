@@ -3,4 +3,4 @@ services:
   server:
     image: wrz961223/docker-ci-basic:latest
     ports:
-      - 8080:80
+      - 8082:80
